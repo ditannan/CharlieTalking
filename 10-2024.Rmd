@@ -28,7 +28,7 @@
 &emsp;&emsp;***如何来定义一个好的歌手？***  
 &emsp;&emsp;我认为我现在还在寻找这个答案的路上，我现在还没有找到这样一个答案，到底什么是一个好的歌手。我现在比较浅薄的理解是，首先我要先好好地唱好自己的歌，但是歌手最幸福的时刻就是在看很多回馈的时刻。歌迷在自己非常压力大的时候，甚至觉得非常黑暗的时刻，突然听到一首歌，他感觉他的生活当中出现了一道光，让你觉得那个时候觉得自己很幸福。所以我现在的理解什么是一个好的歌手，就是你可以用歌声去给别人拥抱的歌手，可以走到别人心中的歌手吧。
 
-```{r, echo=FALSE, fig.cap='好歌手！', fig.align='center', out.width = get_out_width("800pt", "400pt")}
+```{r, echo=FALSE, fig.cap='好歌手！', fig.align='center', out.width = get_out_width("800pt", "400pt"), fig.link='http://t.cn/A6mX0Kta'}
 knitr::include_graphics(rep("img/2024/20241204-2.jpg"))
 ```
 

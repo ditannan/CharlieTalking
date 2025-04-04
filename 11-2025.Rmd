@@ -15,3 +15,8 @@
 
 &emsp;&emsp;***给大家送出几句新年祝福吧***  
 &emsp;&emsp;祝大家在蛇年事事顺心，身体健康，祝大家所有的事情都“越来越好，来来来来，越来越好，来来来来”。所有事情都顺心如意，越来越好。
+
+
+```{r, echo=FALSE, fig.cap='《百花迎春》中国文学艺术界2025春节大联欢专题报道', fig.align='center', out.width = get_out_width("800pt", "400pt"), fig.link='https://w.yangshipin.cn/video?type=0&vid=j0000806d13'}
+knitr::include_graphics(rep("img/2025/20250112-1.jpg"))
+```
