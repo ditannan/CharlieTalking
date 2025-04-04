@@ -1,3 +1,7 @@
+fig:unnamed-chunk-6
+fig:unnamed-chunk-7
+fig:unnamed-chunk-8
+fig:unnamed-chunk-9
 year-2014
 year-2015
 year-2016
@@ -9,4 +13,7 @@ year-2021
 year-2022
 year-2023
 year-2024
+interview-20241204
+acceptance-speech-20241225
 year-2025
+interview-20250112
