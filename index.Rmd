@@ -1,5 +1,5 @@
 ---
-title: "周深采访Talking合集"
+title: "周深采访合集"
 author: "我和老婆是生米"
 date: "`r Sys.Date()`"
 site: bookdown::bookdown_site
@@ -10,7 +10,7 @@ link-citations: yes
 colorlinks: yes
 lot: yes
 lof: yes
-description: "周深采访Talking合集。"
+description: "周深采访合集。"
 cover-image: "img/book-cover.jpg"
 favicon: "img/pang-mi.ico"
 geometry: [a4paper, tmargin=2cm, bmargin=2cm, lmargin=2.5cm, rmargin=2cm]
@@ -52,7 +52,7 @@ get_out_width <- function(x, y="180pt") {
 
 # 前言 {-}
 
-&emsp;&emsp;[本书](https://CharlieTaling.com/)记录了**周深出道以来的采访talking**，采访中的周深，既有趣又有内涵，说过的很多话都深深的鼓舞着我们！
+&emsp;&emsp;[本书](https://CharlieTaling.com/)记录了**周深出道以来的采访文字版**，采访中的周深，既有趣又有内涵，说过的很多话都深深的鼓舞着我们！
 
 
 ```{r, echo=FALSE, out.width = get_out_width("600pt", "400pt"), fig.align='center'}
