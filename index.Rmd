@@ -1,0 +1,130 @@
+---
+title: "周深采访Talking合集"
+author: "我和老婆是生米"
+date: "`r Sys.Date()`"
+site: bookdown::bookdown_site
+documentclass: ctexbook
+biblio-style: apalike
+bibliography: reference.bib
+link-citations: yes
+colorlinks: yes
+lot: yes
+lof: yes
+description: "周深采访Talking合集。"
+cover-image: "img/book-cover.jpg"
+favicon: "img/pang-mi.ico"
+geometry: [a4paper, tmargin=2cm, bmargin=2cm, lmargin=2.5cm, rmargin=2cm]
+github-repo: ditannan/9.29hz
+---
+
+```{r setup, include=FALSE}
+set.seed(0728)
+options(tinytex.verbose = TRUE)
+
+if (knitr::is_html_output()) {
+  # ignore percentage widths for HTML output, unless they are used for multiple
+  # figures side by side
+  knitr::opts_hooks$set(out.width = function(options) {
+    if (options$fig.show != 'hold' && grepl('%$', options$out.width))
+      options$out.width = NULL
+    options
+  })
+}
+
+colorize <- function(x, color) {
+  if (knitr::is_latex_output()) {
+    sprintf("\\textcolor{%s}{%s}", color, x)
+    # sprintf("%s", x)
+  } else if (knitr::is_html_output()) {
+    sprintf("<span style='color: %s;'>%s</span>", color,
+      x)
+  } else x
+}
+
+get_out_width <- function(x, y="180pt") {
+  if(knitr::is_latex_output()) {
+    y
+  } else x
+}
+
+```
+
+
+# 前言 {-}
+
+&emsp;&emsp;[本书](https://CharlieTaling.com/)记录了**周深出道以来的采访talking**，采访中的周深，既有趣又有内涵，说过的很多话都深深的鼓舞着我们！
+
+
+```{r, echo=FALSE, out.width = get_out_width("600pt", "400pt"), fig.align='center'}
+knitr::include_graphics(rep("img/book-cover.jpg"))
+```
+
+
+
+```{asis, echo=!knitr::is_latex_output()}
+::: {.infobox .pang-mi}
+**注意!**
+
+本整理稿在线版免费阅读。  
+**禁止商用！禁止商用！禁止商用！**
+:::
+
+```
+
+
+## 关于本书 {#about-book -}
+
+> ***只要你们想我的时候就可以打开那个文档。——周深***
+
+### 1. 整理本书初衷 {- #motivation}
+&emsp;&emsp;采访中的深深，既有趣活泼，又催人积极上进，说过的话，值得被文字记录。
+
+### 2. 本书结构 {- #book-structure}
+&emsp;&emsp;本书分三部分，第一部分前言及关于本书等内容，第二部分为书的主题部分，按照时间顺序，整理周深2014年出道以为的各类采访的文字稿，第三部分为附录。
+
+### 3. 阅读在线版提示 {- #tips}
+&emsp;&emsp;本书在线版本地址为<https://CharlieTalking.com>。在线版可获得更好的阅读体验——对talking重要部分进行着色区分；添加链接引用，可直接跳转相关采访视频地址；可以发表支持markdown格式的评论；支持关键字全文搜索。
+
+### 4. 如何为本书做贡献 {- #how-to-contribute}
+&emsp;&emsp;本书主体部分按照时间顺序进行整理，但考虑工作量较大，欢迎提供整理好的文字采访。关于本书，如果您有任何意见或建议，欢迎在页面底下评论区评论（评论需要注册[github](https://github.com/)账号，可直接点击评论框下方按钮进行注册，[如有问题，点击查看注册教程](https://docs.github.com/zh/get-started/start-your-journey/creating-an-account-on-github)，github为最大代码托管平台，[点击查看github百度百科](https://baike.baidu.com/item/Github)），也可移步小红书搜索“shenshen_929”私信我。
+
+\newpage
+
+## 推荐语 {#recommendation -}
+
+&emsp;&emsp;相比视频和图片，文字能让人静下心来慢慢品读，这本记录深深采访说过的话的合集，能让我了解音乐之外的深深，一个更立体的深深！
+```{asis}
+
+:::{.right}
+—— 低碳南（我和老婆是生米）
+:::
+
+```
+
+
+\newpage
+
+## 郑重声明 {#declaration -}
+
+&emsp;&emsp;1. 本书稿主体采访文字稿相关所有权归周深所有，**禁止用于商业盈利用途。**
+
+&emsp;&emsp;2. 本书稿**仅供生米交流学习使用**，本人承诺不会用于任何盈利活动。
+
+&emsp;&emsp;3. **本书稿仅供免费阅读，禁止读者商用、盈利，禁止无授权转载。**
+
+
+\newpage
+
+## 致谢 {#Acknowledgments -}
+&emsp;&emsp;首先，我要**感谢深深宝贝**，拥有一个有趣的灵魂。（未完待续）
+
+
+```{asis}
+
+:::{.right}
+我和老婆是生米  
+2025.04
+:::
+
+
+```

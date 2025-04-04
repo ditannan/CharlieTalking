@@ -1,0 +1,13 @@
+book_filename: "bookdownproj"
+output_dir: docs
+delete_merged_file: true
+edit: https://github.com/ditannan/CharlieTalking/edit/main/%s
+view: https://github.com/ditannan/CharlieTalking/blob/main/%s
+language:
+  ui:
+    edit: Edit
+    chapter_name: !expr function(i) paste0('第', i, '年、')
+    appendix_name: "附录"
+  label:
+    fig: "图"
+    tab: "表"
