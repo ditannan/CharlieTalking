@@ -2,8 +2,8 @@
 
 
 ```{asis, echo=!knitr::is_latex_output()}
-- [十年·拾光｜周深的梦想是用歌声陪伴更多人成长](#interview-20241204)  
-- [2024腾讯娱乐白皮书年度歌手&腾讯音乐榜最佳表现歌手](#acceptance-speech-20241225)  
+- [2024.12.04：十年·拾光｜周深的梦想是用歌声陪伴更多人成长](#interview-20241204)  
+- [2024.12.25：2024腾讯娱乐白皮书年度歌手&腾讯音乐榜最佳表现歌手](#acceptance-speech-20241225)  
 
 ```
 
@@ -73,7 +73,6 @@ knitr::include_graphics(rep("img/2024/20241204-2.jpg"))
 ```{r, echo=FALSE, fig.cap='哪支旋律让你无数次循环', fig.align='center', out.width = get_out_width("600pt", "320pt")}
 knitr::include_graphics(rep("img/2024/20241204-1.jpg"))
 ```
-
 
 \newpage
 

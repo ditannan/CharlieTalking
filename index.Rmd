@@ -74,8 +74,6 @@ knitr::include_graphics(rep("img/book-cover.jpg"))
 
 ## 关于本书 {#about-book -}
 
-> ***只要你们想我的时候就可以打开那个文档。——周深***
-
 ### 1. 整理本书初衷 {- #motivation}
 &emsp;&emsp;采访中的深深，既有趣活泼，又催人积极上进，说过的话，值得被文字记录。
 
